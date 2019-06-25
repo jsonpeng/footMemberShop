@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.con{
+	width: 100%;
+	height: auto;
+	background-color: #EEF3FA;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #EEF3FA;
+}
+.header img{
+	width: 80px;
+	height: 30px;
+	/*margin-top: 3px;*/
+	margin-left: 20px;
+	/*border: 1px solid red;*/
+}
+.header h4{
+	display: inline-block;
+	/*text-align: center;*/
+	color: #727272;
+	/*padding-top: 1px;*/
+	margin-top: 10px;
+	margin-left: calc(25% - 37px);
+	font-family: "simsun";
+}
+
+/*其他信息样式*/
+.other_info{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	/*margin-top: 20px;*/
+	border-top: 2px solid #CACACA;
+	border-bottom: 2px solid #CACACA;
+}
+.other_info ul{
+	list-style: none;
+}
+.other_info ul li{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	position: relative;
+}
+.other_info ul li div.pr{
+	border-bottom: 1px solid #E9EDEF;
+	margin-left: 20px;
+}
+.other_info ul li a{
+	display: inline-block;
+	text-decoration: none;
+	width: 85px;
+	height: 55px;
+	line-height: 55px;
+	color: #1c1c1c;
+	font-size: 16px;
+}
+.other_info ul li img{
+	width: 8px;
+	height: 18px;
+	position: absolute;
+	top: 18px;
+	right: 20px;
+}
+.other_info ul li div.pr span{
+	display: inline-block;
+	width: 220px;
+	height: 50px;
+	font-size: 16px;
+	font-family: "simsun";
+	
+	color: #1C1C1C;
+}
+/*.other_info ul li div.pr input{
+	width: 220px;
+	height: 50px;
+	border: 0px;
+	text-indent: 1em;
+	font-size: 16px;
+	outline: none;
+	font-family: "simsun";
+}*/
+.footer{
+	width: 100%;
+	height: 140px;
+	background-color: white;
+}
+.footer a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	background-color: #07BE04;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.footer a:hover{
+	text-decoration: none;
+}

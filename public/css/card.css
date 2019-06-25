@@ -1,0 +1,79 @@
+.card{
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-left: 5%;
+	position: relative;
+	margin-top: 20px;
+}
+.card .back{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.card .two{
+	width: 150px;
+	height: auto;
+	position: absolute;
+	z-index: 999;
+	bottom: 0;
+	right: 0;
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+.card .three{
+	width: 150px;
+	height: auto;
+	position: absolute;
+	z-index: 999;
+	margin-left: 10px;
+	bottom: 0;
+	right: 0;
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.menu{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+}
+.menu .item{
+	width: 100%;
+	height: auto;
+	float: left;
+	border-bottom: 1px solid #F2F2F2;
+}
+.menu .item span{
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	font-size: 13px;
+	color: #333;
+}
+.menu .item img{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin: 17.5px 0 17.5px 0;
+}
+
+.maidan{
+	width: 90%;
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	margin-left: 5%;
+	background-color: #62b900;
+	color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 50px;
+}

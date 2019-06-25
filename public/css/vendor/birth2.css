@@ -1,0 +1,41 @@
+.mui-content{
+	height: 620px;
+}
+.mui-media-object{
+	border-radius: 50%;
+}
+.mui-pull-left{
+	margin-top: -5px;
+}
+.mui-media-body{
+	margin-top: 5px;
+}
+.mui-table-view-cell{
+	height: 55px;
+}
+.back{
+	width: 90%;
+	height: 35px;
+	/*line-height: 40px;*/
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.back:hover{
+	color: white;
+	text-decoration: none;
+}
+
+input[type=text]{
+	width: 70%;
+	height: 30px;
+	line-height: 30px;
+	border: 0;
+	display: inline-block;
+}
+.btn{
+	width: 100%;
+	height: 100px;
+}
+.mui-btn-success{
+	background-color: #07be04;
+}

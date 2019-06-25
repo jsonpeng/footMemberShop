@@ -1,0 +1,9 @@
+.weui-cell {
+  background-color: #fff;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Microsoft YaHei UI", "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53";
+}

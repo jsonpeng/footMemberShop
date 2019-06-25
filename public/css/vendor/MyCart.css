@@ -1,0 +1,265 @@
+.*{
+	margin: 0px;
+	padding: 0px;
+}
+.con{
+	width: 100%;
+	height: auto;
+	background-color: #F5F5F5;
+}
+/*头部样式*/
+.black_bg{
+	width: 100%;
+	//height: 100%;
+	background-color: #232424;
+}
+.cart{
+	width: 267px;
+	height: 159px;
+	margin: auto;
+	position: relative;
+}
+.cart img{
+	width: 267px;
+	height: 159px;
+	border-radius: 8px;
+	margin-top: 16px;
+}
+.cart p{
+	color: white;
+	font-family: "微软雅黑";
+}
+.cart p.name img{
+	width: 90px;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	left: 166px;
+	font-size: 28px;
+}
+.cart p.kahao{
+	width: 60px;
+	height: 16px;
+	position: absolute;
+	top: 128px;
+	left: 16px;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+}
+.cart p.number{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	top: 144px;
+	left: 16px;
+	font-size: 20px;
+}
+
+.card .card_date{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	/*background: red;*/
+	position: absolute;
+	bottom: -15px;
+	right: 10px;
+}
+.card p.youxiaoqi{
+	font-family: "simsun";
+	font-size: 14px;
+	
+}
+.card .card_date{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	/*background: red;*/
+	position: absolute;
+	bottom: -15px;
+	right: 10px;
+}
+.card p.youxiaoqi{
+	font-family: "simsun";
+	font-size: 14px;
+	
+}
+
+/*我的积分等部分的样式*/
+.jifen{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	//margin-top: 50px;
+}
+.jifen ul,.youhui ul{
+	list-style: none;
+}
+.jifen ul li,
+.youhui ul li{
+	width: 100%;
+	height: 60px;
+	position: relative;
+}
+.jifen ul li img,
+.youhui ul li img{
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.jifen ul li div.pr,
+.youhui ul li div.pr{
+	border-bottom: 1px solid #E9EDEF;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.jifen ul li div.pr i{
+	width: 8px;
+	height: 18px;
+}
+.jifen ul li div.pr i img{
+	width: 8px;
+	height: 18px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+.jifen ul li div.pr span{
+	position: absolute;
+	top: 18px;
+	right: 40px;
+	color: #A8A8A8;
+}
+.jifen ul li a,
+.youhui ul li a{
+	display: inline-block;
+	width: 80%;
+	color: black;
+	font-size: 16px;
+	margin-left: 20px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+.jifen ul li a:hover,
+.youhui ul li a:hover{
+	text-decoration: none;
+}
+.jifen ul li:hover,
+.youhui ul li:hover{
+	cursor: pointer;
+}
+.youhui ul li div.pr i{
+	width: 18px;
+	height: 8px;
+}
+.youhui ul li div.pr i img{
+	width: 8px;
+	height: 18px;
+	position: absolute;
+	top: 8px;
+	right: 20px;
+}
+/*特权部分样式*/
+.tequan,
+.zhangdan,
+.tell,
+.other{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	border-top: 1px solid #E9EDEF;
+	border-bottom: 1px solid #E9EDEF;
+	margin-top: 25px;
+}
+.tequan img,
+.zhangdan img,
+.tell img,
+.other img{
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	margin-left: 20px;
+}
+.tequan a,
+.zhangdan a,
+.tell a,
+.other a{
+	display: inline-block;
+	color: black;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 16px;
+	width: 80%;
+}
+.tequan a:hover,
+.zhangdan a:hover,
+.tell a:hover,
+.other a:hover{
+	text-decoration: none;
+}
+.tequan:hover,
+.zhangdan:hover,
+.tell:hover,
+.other:hover{
+	cursor: pointer;
+}
+.tequan i{
+	width: 18px;
+	height: 8px;
+}
+.tequan i img{
+	width: 18px;
+	height: 8px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+.huodong{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #5F646C;
+	margin-left: 20px;
+}
+.youhui {
+	width: 100%;
+	height: 120px;
+	background-color: white;
+}
+.zhangdan i,
+.tell i,
+.other i{
+	width: 8px;
+	height: 18px;
+}
+.zhangdan i img,
+.tell i img,
+.other i img{
+	width: 8px;
+	height: 18px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+.btn{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+}
+.btn a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	background-color: #07BE04;
+	font-size: 16px;
+	color: white;
+}
+.btn a:hover{
+	text-decoration: none;
+}
+

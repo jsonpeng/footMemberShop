@@ -1,0 +1,60 @@
+@font-face {
+	font-family:"mui";
+	src: url("../../fonts/mui.ttf");
+}
+.font{
+	font-family: "mui";
+}
+.mui-content{
+	height: 620px;
+}
+.mui-media-object{
+	border-radius: 50%;
+}
+.mui-pull-left{
+	margin-top: -5px;
+}
+.mui-media-body{
+	margin-top: 5px;
+}
+/*.name{
+	margin-left: 210px;
+}
+.num{
+	margin-left: 140px;
+}*/
+.zsxm{
+	position: relative;
+	top: 5px;
+	left: 0px;
+}
+.name{
+	position: relative;
+	top: 5px;
+	left: 210px;
+}
+.num{
+	position: relative;
+	top: 5px;
+	left: 100px;
+}
+.mui-table-view-cell{
+	height: 55px;
+}
+.back{
+	width: 90%;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 5%;
+	margin-top: 50px;
+	padding: 0px;
+	font-size: 16px;
+}
+.back:hover{
+	color: white;
+	text-decoration: none;
+}
+.mui-btn-success{
+	background-color: #07be04;
+	border: 1px solid #07BE04;
+}

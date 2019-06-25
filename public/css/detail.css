@@ -1,0 +1,228 @@
+.overtime{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 15px;
+	padding-left: 10px;
+	background-color: #DDDDDD;
+}
+.base{
+	width: 96%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+}
+.base .price{
+	width: auto;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	float: left;
+	font-size: 18px;
+	color: #e02e24;
+}
+.base .incloud{
+	width: auto;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	float: right;
+	font-size: 14px;
+	color: #626635;
+}
+.title{
+	width: 96%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+	color: #151515;
+	line-height: 20px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.context{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff5fa;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 10px solid #f2f2f2;
+	margin-top: 10px;
+}
+.context .duhao{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+.context .duhao img{
+	width: 15px;
+	height: 15px;
+	margin-top: 7.7px;
+	float: left;
+	margin-right: 3px;
+}
+.context .duhao span{
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-size: 12px;
+}
+.oneitem{
+	width: 100%;
+	height: auto;
+	float: left;
+	border-bottom: 1px solid #F2F2F2;
+}
+.oneitem .one{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #151515;
+	font-size: 14px;
+	margin-left: 2%;
+}
+.oneitem .three{
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 10px;
+}
+.oneitem .two{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	color: #151515;
+	font-size: 14px;
+	color: #a5a5a5;
+}
+.partlist{
+	width: 100%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+}
+.partlist ul{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.partlist ul li{
+	width: 100%;
+	height: auto;
+	float: left;
+	border-bottom: 1px solid #f2f2f2;
+}
+.partlist ul li .one{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 5px auto;
+	border-radius: 20px;
+}
+.partlist ul li .two{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.partlist ul li .three{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+	margin-right: 5px;
+}
+.partlist ul li .four{
+	width: 60px;
+	border-radius: 5px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 7.5px;
+	background-color: #e02e24;
+	color: #fff;
+	text-align: center;
+	float: right;
+}
+.detail{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-top: 10px solid #F2F2F2;
+	padding-bottom: 50px;
+}
+.detail .title{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 16px;
+	border-bottom: 1px solid #F2F2F2;
+}
+.detail .tuwen{
+	width: 100%;
+	height: auto;
+	float: left;
+    padding-bottom: 8px;
+}
+.detail .tuwen img{
+	width: 100% !important;
+	height:auto;
+}
+
+.bottommenu{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #F2F2F2;
+}
+.bottommenu .one{
+	width: 40px;
+	height: auto;
+	float: left;
+}
+.bottommenu .one img{
+	width: 25px;
+	margin: 5px 10px 0 10px;
+	height: 25px;
+	float: left;
+}
+.bottommenu .one span{
+	width: 45px;
+	height: 20px;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #9c9c9c;
+}
+.bottommenu .two{
+	width: 100px;
+	height: 50px;
+	float: right;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #e02e24;
+	color: #fff;
+}

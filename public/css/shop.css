@@ -1,0 +1,64 @@
+.title{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+	height: auto;
+	line-height: 50px;
+	font-size: 18px;
+	border-bottom: 1px solid #F2F2F2;
+}
+.list{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
+}
+.list ul{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.list ul li{
+	width: 99%;
+	height: auto;
+	float: left;
+	background-color: #FFFFFF;
+	color: #7E181D;
+	border-radius: 5px;
+	border: 1px solid #7E181D;
+	margin-bottom: 20px;
+}
+.list ul li span{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+}
+.list ul .active{
+	background-color: #7E181D;
+	color: #FFFFFF;
+}
+.zhushi{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: auto;
+	float: left;
+	line-height: 25px;
+	font-size: 13px;
+	color: #999;
+}
+.zhushi span{
+	width: 100%;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	color: #666;
+	font-size: 15px;
+	border-bottom: 1px solid #F2F2F2;
+}
